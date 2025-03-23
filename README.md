@@ -47,6 +47,7 @@ This is a Django-based Library Management System that allows admins to perform C
 
 5. Run migration and start the server
    ```bash
+   cd library_management
    python manage.py migrate
    python manage.py runserver
 
