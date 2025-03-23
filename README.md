@@ -39,6 +39,24 @@ This is a Django-based Library Management System that allows admins to perform C
         'PASSWORD': 'pass',  #write your password. the password written in the is mine one.
         'HOST': 'localhost',
         'PORT': '3306',
-    }
-}
-4.
+    }}
+
+4. Open Mysql and create a database
+   ```bash
+   CREATE DATABASE library_db;
+
+5. Run migration and start the server
+   ```bash
+   python manage.py migrate
+   python manage.py runserver
+
+6. API Endpoints
+Admin Signup: POST:  http://127.0.0.1:8000/api/signup/
+
+Admin Login: POST: http://127.0.0.1:8000/api/token/
+
+Book List/Create: GET/POST: http://127.0.0.1:8000/api/books/
+
+Book Retrieve/Update/Delete: GET/PUT/DELETE: http://127.0.0.1:8000/api/books/<id>/
+
+Student Book List: GET http://127.0.0.1:8000:/api/student/books/
