@@ -24,10 +24,21 @@ This is a Django-based Library Management System that allows admins to perform C
 1. Clone the repository:
    ```bash
    git clone https://github.com/Adityajeet/library_management_system.git
-   cd library_management
 
 2. Create a virtual environment and Install requirements.txt
     ```bash
     pip install -r requirements.txt
 
-3. 
+3. Configure the database in settings.py (library_management\library_management\settings.py) as
+   ```bash
+   DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'library_db',
+        'USER': 'root',
+        'PASSWORD': 'pass',  #write your password. the password written in the is mine one.
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+4.
