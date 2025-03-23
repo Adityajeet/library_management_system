@@ -1,4 +1,4 @@
-# Library Management System
+# Library Management System using Django
 
 ## Project Overview
 This is a Django-based Library Management System that allows admins to perform CRUD operations on books and provides a student view to list all books.
@@ -23,5 +23,11 @@ This is a Django-based Library Management System that allows admins to perform C
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/library_management.git
+   git clone https://github.com/Adityajeet/library_management_system.git
    cd library_management
+
+2. Create a virtual environment and Install requirements.txt
+    ```bash
+    pip install -r requirements.txt
+
+3. 
